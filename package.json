@@ -1,0 +1,14 @@
+{
+  "name": "responsiveportofolio",
+  "version": "1.0.0",
+  "description": "responsive portofolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Ene Catalin",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
