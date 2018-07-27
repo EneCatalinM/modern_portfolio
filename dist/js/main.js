@@ -21,7 +21,7 @@ const toggleMenu = _ => {
     $menu.classList.remove("show");
     $menuNav.classList.remove("show");
     $menuBrand.classList.remove("show");
-    navItem.forEach(item => item.classList.remove("show"));
+    $navItems.forEach(item => item.classList.remove("show"));
   }
 };
 
