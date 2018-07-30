@@ -47,7 +47,7 @@ header {
 main {
   padding: 4rem;
   // height: 100%;
-  min-height: calc(100vh-60px);
+  height: calc(100vh-60px);
   .icons {
     margin-top: 1rem;
 
@@ -145,6 +145,33 @@ main {
   background: lighten($primary-color, 50);
   color: #333;
 }
+
+//contact area
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2rem;
+  div {
+    font-size: 2rem;
+    border: 3px #fff solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    @include easeout;
+
+    &:hover {
+      padding: 0.5rem 1.5rem;
+      background: $secondary-color;
+      color: set-text-color($secondary-color);
+      span {
+        color: set-text-color($secondary-color);
+      }
+    }
+  }
+}
+
 //footer area
 #main-footer {
   text-align: center;
