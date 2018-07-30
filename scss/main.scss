@@ -46,8 +46,7 @@ header {
 
 main {
   padding: 4rem;
-  // height: 100%;
-  height: calc(100vh-60px);
+  min-height: 93.5vh;
   .icons {
     margin-top: 1rem;
 
